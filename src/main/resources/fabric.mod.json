@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "mercury",
+  "version": "${version}",
+  "name": "Mercury",
+  "description": "A collection of server utilities.",
+  "authors": [
+    "IAFEnvoy"
+  ],
+  "contact": {
+    "sources": "https://github.com/CodeOfArdonia/Mercury"
+  },
+  "license": "All Right Reserved",
+  "icon": "logo.jpg",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.iafenvoy.mercury.Mercury"
+    ],
+    "mercury-module": [
+      "com.iafenvoy.mercury.module.banitem.BanItemModule",
+      "com.iafenvoy.mercury.module.betterop.BetterOpModule",
+      "com.iafenvoy.mercury.module.el.EnchantmentLimiterModule",
+      "com.iafenvoy.mercury.module.tour.TourModule"
+    ]
+  },
+  "mixins": [
+    "mercury.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
