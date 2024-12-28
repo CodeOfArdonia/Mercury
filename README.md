@@ -12,6 +12,7 @@ Root command: `/mercury`, contains module controls. You can use `/reload` to rel
 - `mercury:better_op`: A better `/op` command, which you can assign different permission level to others.
 - `mercury:enchantment_limiter`: Limit max enchantment level.
 - `mercury:tour`: A server side only free camera. Command: `/tour`
+- `mercury:extra_damage`: Some block will give you damage. (Torches, Stone cutters)
 
 ## Planned Modules
 

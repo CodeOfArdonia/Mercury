@@ -21,6 +21,7 @@
       "com.iafenvoy.mercury.module.banitem.BanItemModule",
       "com.iafenvoy.mercury.module.betterop.BetterOpModule",
       "com.iafenvoy.mercury.module.el.EnchantmentLimiterModule",
+      "com.iafenvoy.mercury.module.extradamage.ExtraDamageModule",
       "com.iafenvoy.mercury.module.tour.TourModule"
     ]
   },
